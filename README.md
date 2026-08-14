@@ -106,3 +106,13 @@ The timeout defaults can be overridden for a controlled canary with `SITES_INSTA
 
 - [vinext Documentation](https://github.com/cloudflare/vinext)
 - [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+
+## GitHub Pages
+
+This repository includes a static GitHub Pages edition of the portfolio.
+
+- Build it locally with `npm run build:pages`.
+- The generated static site is placed in `dist/`.
+- The workflow at `.github/workflows/deploy-pages.yml` deploys the site after each push to `main`.
+
+In the repository settings, open **Pages** and choose **GitHub Actions** as the publishing source. GitHub will then publish the portfolio automatically.
